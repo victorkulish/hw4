@@ -195,14 +195,18 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
 .features-list {
   width: calc((100% - 72px) / 4);
 }
-.features-icon {
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  width: 264px;
+.features-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 112px;
   background: #f4f4fd;
-  fill: #2e2f42;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+  
 }
+
 .features-name {
   font-weight: 500;
   font-size: 20px;
