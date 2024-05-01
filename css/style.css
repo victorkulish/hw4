@@ -57,6 +57,19 @@ img {
   padding-top: 24px;
   padding-bottom: 32px;
   border-bottom: 1px solid #e7e9fc;
+box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.header::after{
+  content:'';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 .header-container {
   display: flex;
@@ -96,6 +109,10 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
+}
+.menu-link-first{
+  position: relative;
+  color: #404bbf;
 }
 .header-menu-link:hover,
 .Contacts-link:focus {
