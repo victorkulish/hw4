@@ -61,16 +61,8 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-.header::after{
-  content:'';
-  width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
-}
+
+
 .header-container {
   display: flex;
 }
@@ -113,6 +105,18 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
 .menu-link-first{
   position: relative;
   color: #404bbf;
+  transition:color 250ms,
+  cubic-bezier(0.4, 0, 0.2, 1);
+}
+.menu-link-first::after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 .header-menu-link:hover,
 .Contacts-link:focus {
