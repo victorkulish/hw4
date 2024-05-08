@@ -353,6 +353,9 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.image-text:hover {
+  transform: translateY(0%);
+}
 /* -------------------------------------------------Footer-------------------------------------------------- */
 .footer {
   background: #2e2f42;
