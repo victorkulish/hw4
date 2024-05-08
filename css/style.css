@@ -358,6 +358,7 @@ img {
 
 .image-text {
   position: relative;
+  overflow: hidden;
 }
 .image-text-info {
   position: absolute;
@@ -368,10 +369,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  padding-top: 40px;
-  padding-bottom: 164px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding: 40px 32px;
   display: flex;
   align-items: center;
   transform: translateY(100%);
