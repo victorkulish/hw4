@@ -411,6 +411,6 @@ img {
   justify-content: center;
 }
 .logo-link-footer:hover,
-.logo-link-footer:active {
+.logo-link-footer:focus {
   background-color: #31d0aa;
 }
