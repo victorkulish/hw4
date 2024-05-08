@@ -391,4 +391,13 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
+}
+.social-list {
+  display: flex;
+  gap: 16px;
+}
+.social-icon-type {
+  width: 40px;
+  height: 40px;
 }
