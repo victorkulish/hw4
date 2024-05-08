@@ -53,6 +53,7 @@ img {
   padding-right: 15px;
   margin: 0 auto;
 }
+/* ----------------------------------------------------------header--------------- */
 .header {
   padding-top: 24px;
   padding-bottom: 32px;
@@ -138,6 +139,7 @@ img {
 .contacts-link:focus {
   color: #404bbf;
 }
+/* ------------------------------------hero--------------------------- */
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
@@ -183,6 +185,7 @@ img {
 .hero-btn:hover {
   background: #404bbf;
 }
+/* ----------------------------------------------------------------------------features-------------------------------------- */
 .features {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -220,6 +223,7 @@ img {
   color: #434455;
   height: 72px;
 }
+/* ----------------------------------------------------------------team------------------------------------------------------ */
 .our-team {
   background-color: #f4f4fd;
   padding-top: 120px;
@@ -297,7 +301,7 @@ img {
 .logo-link:focus {
   background-color: #404bbf;
 }
-
+/* ----------------------------------------------------------our-portfolio-------------------------------------------------- */
 .our-portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -324,6 +328,10 @@ img {
   width: calc((100% - 48px) / 3);
   border-top: none;
 }
+.our-portfolio-item:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .portfolio-name-item {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -344,6 +352,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* -------------------------------------------------Footer-------------------------------------------------- */
 .footer {
   background: #2e2f42;
   padding-top: 100px;
